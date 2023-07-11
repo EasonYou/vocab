@@ -3,6 +3,6 @@ import { resolve } from 'path';
 
 export default defineConfig({
   framework: {
-    srcDir: resolve(__dirname, './src/app'),
+    srcDir: './src/app',
   },
 });
